@@ -2,122 +2,222 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashim Shakya</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/Landingpage.css">
-    <link rel="icon" href="assets/logo.ico" type="image/x-icon">
-
-   
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">Ashim Shakya</a>
-        <i class='bx bx-menu' id="menu"></i>
-        
-        <nav class="navbar">
-            <a href="#about">About Me</a>
-            <a href="#services">Portfolio</a>
-            <a href="#contact">Contact</a>
-            <a href="#Random">Blog</a>
-        </nav>
-    </header>
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi, It's meh !</h3>
-            <h1><span>Ashim Shakya</span></h1>
-            <p>Banking Professional with a Passion for IT Solutions</p>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Ashim</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">
+                        <span id="themeIcon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
         </div>
-    </section>
-    <section class="about" id="about">
-        <div>
-            <h2 class="heading">About <span> Me</span></h2>
-            <h2 class="about-content">Welcome to my portfolio! With a solid foundation in banking and finance, combined with expertise in software development and automation, I bridge the gap between business needs and technology-driven solutions. From optimizing financial processes to building dynamic web applications, I bring a unique blend of skills to every project I work on. Let's collaborate to bring innovation and efficiency to your business! </h2>
-        </div>
-    </section>
-    <section class="services" id="services">
-        <h2 class="heading"><span>Portfolio</span></h2>
-        <div class="services-container">
-            
-            <div class="services-box">
-                    <i class='bx bx-brush'></i>
-                    <h3>Youtube Playlist</h3>
-                    <p>Display Youtube playlist of various channel.
-                        </p>
-                    <a href="https://djcoder-git.github.io/YoutubePlaylist/" class="dwn-btn">Read more..</a>
-             </div>
-            <div class="services-box">
-                    <i class='bx bx-mobile-alt'></i>
-                    <h3>JSON Content</h3>
-                    <p>Display JSON Content like Comming soon movies in cinema hall.
-                    </p>
-                    <a href="https://djcoder-git.github.io/JSONContent/" class="dwn-btn">Read more..</a>
-            </div>
-             <div class="services-box">
-                    <i class='bx bx-mobile-alt'></i>
-                    <h3>Foreign Exchange Rate</h3>
-                    <p>Display Current foreign exchange rate.
-                    </p>
-                    <a href="https://djcoder-git.github.io/ForeignExchangeRate/" class="dwn-btn">Read more..</a>
-            </div>
-             <div class="services-box">
-                    <i class='bx bx-mobile-alt'></i>
-                    <h3>ini Cinemas Info</h3>
-                    <p>Movie Details from ini Cinemas.
-                    </p>
-                    <a href="https://djcoder-git.github.io/iniCinemas/" class="dwn-btn">Read more..</a>
-            </div>
-            
-        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Ashim Shakya</h1>
+            <h2 class="hero-subtitle">Banking Professional with a Passion for IT Solutions</h2>
+            <p class="hero-description">
+                Crafting digital experiences that blend creativity with cutting-edge technology. 
+                Transforming ideas into beautiful, functional solutions that make an impact.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
     </section>
 
-<section class="contact" id="contact">
-    <div class="contact-box">
-        <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="assets/mail/contact_me.php" method="POST">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
+    <!-- About Section -->
+    <section class="about fade-in" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Passionate about creating amazing experiences</h3>
+                <p>
+                    Welcome to my portfolio! With a solid foundation in banking and finance, combined with expertise in software development and automation, I bridge the gap between business needs and technology-driven solutions. From optimizing financial processes to building dynamic web applications, I bring a unique blend of skills to every project I work on. Let's collaborate to bring innovation and efficiency to your business!
+                </p>
+                <p>
+                    I believe in the power of clean code, beautiful design, and seamless user experiences. 
+                    Every project is an opportunity to push boundaries and create something extraordinary.
+                </p>
+                <div class="skills">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">c / c++</span>
+                    <span class="skill-tag">Python</span>
+                </div>
             </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
+            <div class="about-image">
+                <div class="about-card">
+                    <h4 style="font-size: 1.5rem; margin-bottom: 1rem;">Let's build something amazing together</h4>
+                    <p style="color: var(--text-secondary);">
+                        I'm always excited to work on new projects and collaborate with passionate people. 
+                        Whether you have a startup idea or need to enhance your existing product, I'm here to help.
+                    </p>
+                </div>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="dwn-btn">
-        </form>
-        <div class="social-media" style="">
-            <h2 style="display:inline; color: whitesmoke;">Follow me at :</h2>
-            <a id="final-one" href="https://github.com/djcoder-git"><i class='bx bxl-github' ></i></a>
-            <a id="final-one" href="#">
-            <i class='bx bxl-facebook-circle'></i>
-            </a>
-            <a id="final-one" href="#">
-            <i class='bx bxl-instagram'></i>
-            </a><a id="final-one" href="#"><i class='bx bxl-linkedin'></i></a>    
-        
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects fade-in" id="projects">
+        <div class="projects-container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="ytPlaylist">
+                    <div class="project-image project-1"></div>
+                    <div class="project-content">
+                        <h3>Youtube Playlist</h3>
+                        <p>Display Youtube Playlist of various channel.</p>
+                        <!-- <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="project-card" data-project="fcy">
+                    <div class="project-image project-2"></div>
+                    <div class="project-content">
+                        <h3>Foreign Exchange Rate</h3>
+                        <p>Display current foreign exchange rate</p>
+                        <!-- <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">D3.js</span>
+                            <span class="project-tag">Python</span>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="project-card" data-project="iNi">
+                    <div class="project-image project-3"></div>
+                    <div class="project-content">
+                        <h3>iNi Cinemas movie update</h3>
+                        <p>Movie Details from iNi cinemas</p>
+                        <!-- <div class="project-tags">
+                            <span class="project-tag">React Native</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">TypeScript</span>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- <div class="project-card" data-project="ai">
+                    <div class="project-image project-1"></div>
+                    <div class="project-content">
+                        <h3>AI Chat Assistant</h3>
+                        <p>Intelligent chatbot with natural language processing and machine learning capabilities.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">NLP</span>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="project-card" data-project="blockchain">
+                    <div class="project-image project-2"></div>
+                    <div class="project-content">
+                        <h3>Blockchain Wallet</h3>
+                        <p>Decentralized cryptocurrency wallet with multi-chain support and DeFi integration.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Solidity</span>
+                            <span class="project-tag">Web3.js</span>
+                            <span class="project-tag">Ethereum</span>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="project-card" data-project="social">
+                    <div class="project-image project-3"></div>
+                    <div class="project-content">
+                        <h3>Social Media Platform</h3>
+                        <p>Next-generation social networking platform with real-time messaging and content sharing.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">Socket.io</span>
+                            <span class="project-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-header" id="modalHeader">
+                <span id="modalIcon">🛒</span>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h3 class="modal-title" id="modalTitle">Project Title</h3>
+                <p class="modal-description" id="modalDescription">Project description will be loaded here...</p>
+                
+                <div class="modal-features">
+                    <h4>Key Features</h4>
+                    <ul id="modalFeatures">
+                        <li>Feature will be loaded here</li>
+                    </ul>
+                </div>
+                
+                <div class="modal-tags" id="modalTags">
+                    <!-- Tags will be loaded here -->
+                </div>
+                
+                <div class="modal-links">
+                    <a href="https://djcoder-git.github.io/YoutubePlaylist/" class="modal-link" id="liveDemo">Live Demo</a>
+                    <a href="#" class="modal-link secondary" id="sourceCode">Source Code</a>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-<footer>
-    
-</footer>
 
-<script src="../js/Landingscript.js">
-    
-</script>
-<script src="../assets/mail/contact_me.js">
+    <!-- Contact Section -->
+    <section class="contact fade-in" id="contact">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem;">
+            Ready to start your next project? I'd love to hear from you. 
+            Send me a message and let's create something amazing together.
+        </p>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" class="form-input" placeholder="Your Name" required>
+                <input type="email" class="form-input" placeholder="Your Email" required>
+            </div>
+            <input type="text" class="form-input full-width" placeholder="Subject" required>
+            <textarea class="form-input full-width" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary" style="justify-self: center;">Send Message</button>
+        </form>
+    </section>
 
-</script>
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link">📧</a>
+            <a href="#" class="social-link">💼</a>
+            <a href="#" class="social-link">🐦</a>
+            <a href="#" class="social-link">📷</a>
+        </div>
+        <p style="color: var(--text-muted);">
+            © 2025 Ashim Shakya. Crafted with ❤️ and lots of ☕
+        </p>
+    </footer>
+    <script src="./js/script.js"></script> 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
