@@ -493,13 +493,20 @@ nav {
 .modal-header.project-1 {
     background-image: url('../images/youtube-playlist.webp');
 }
-
 .modal-header.project-2 {
     background-image: url('../images/forex.webp');
 }
-
 .modal-header.project-3 {
     background-image: url('../images/iNi.webp');
+}
+.modal-header.project-4 {
+    background-image: url('../images/update.webp');
+}
+.modal-header.project-5 {
+    background-image: url('../images/goldsilver.webp');
+}
+.modal-header.project-6 {
+    background-image: url('../images/data.webp');
 }
 
 .modal-close {
@@ -862,5 +869,6 @@ footer {
 
 
 }
+
 
 
