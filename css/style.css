@@ -383,7 +383,7 @@ nav {
 
 /* Individual project images */
 .project-image.project-1 {
-    background-image: url('../images/youtube-playlist.png');
+    background-image: url('../images/youtube-playlist.webp');
 }
 
 .project-image.project-2 {
@@ -862,4 +862,5 @@ footer {
 
 
 }
+
 
