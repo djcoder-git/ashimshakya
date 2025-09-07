@@ -180,67 +180,64 @@
                 liveDemo: 'https://djcoder-git.github.io/iniCinemas/',
                 sourceCode: '#'
             },
-            // ai: {
-            //      icon: '🤖',
-            //     title: 'AI Chat Assistant',
-            //     description: 'An intelligent conversational AI assistant powered by advanced natural language processing. Capable of understanding context, providing helpful responses, and learning from interactions. Built with modern ML frameworks and designed for seamless integration into various applications.',
-            //     features: [
-            //         'Natural language understanding and processing',
-            //         'Context-aware conversations',
-            //         'Multi-language support',
-            //         'Sentiment analysis and emotion recognition',
-            //         'Integration with external APIs and services',
-            //         'Customizable personality and responses',
-            //         'Analytics and conversation insights',
-            //         'Scalable architecture for high volume'
-            //     ],
-            //     tags: ['Python', 'TensorFlow', 'NLP', 'FastAPI', 'Docker', 'OpenAI'],
-            //     liveDemo: '#',
-            //     sourceCode: '#'
-            // },
-            // blockchain: {
-            //      icon: '⛓️',
-            //     title: 'Blockchain Wallet',
-            //     description: 'A decentralized cryptocurrency wallet with multi-chain support and DeFi integration. Provides secure storage, easy transfers, and access to decentralized finance protocols. Built with web3 technologies and focuses on user security and experience.',
-            //     features: [
-            //         'Multi-chain cryptocurrency support',
-            //         'Secure key management and storage',
-            //         'DeFi protocol integration',
-            //         'NFT collection and trading',
-            //         'Staking and yield farming',
-            //         'Transaction history and analytics',
-            //         'Hardware wallet integration',
-            //         'Cross-chain bridge functionality'
-            //     ],
-            //     tags: ['Solidity', 'Web3.js', 'Ethereum', 'MetaMask', 'IPFS', 'React'],
-            //     liveDemo: '#',
-            //     sourceCode: '#'
-            // },
-            // social: {
-            //     icon: '🌐',
-            //     title: 'Social Media Platform',
-            //     description: 'A next-generation social networking platform that connects people through shared interests and real-time interactions. Features include content sharing, live messaging, community building, and advanced privacy controls. Built for scale and user engagement.',
-            //     features: [
-            //         'Real-time messaging and video calls',
-            //         'Content sharing with rich media support',
-            //         'Community groups and forums',
-            //         'Advanced privacy and security settings',
-            //         'AI-powered content recommendations',
-            //         'Live streaming capabilities',
-            //         'Event planning and management',
-            //         'Mobile and desktop applications'
-            //     ],
-            //     tags: ['Next.js', 'Socket.io', 'PostgreSQL', 'Redis', 'AWS', 'WebRTC'],
-            //     liveDemo: '#',
-            //     sourceCode: '#'
-            // }
+            update: {
+                 // icon: '🤖',
+                title: 'News update from various source',
+                description: 'News update, movies in cinema hall, Vegetable price, Petrol price',
+                // features: [
+                //     'Natural language understanding and processing',
+                //     'Context-aware conversations'
+                // ],
+                tags: ['HTML','CSS','JavaScript','Python'],
+                liveDemo: '#',
+                sourceCode: '#'
+            },
+            goldsilver: {
+                 // icon: '⛓️',
+                title: 'Display current gold & silver price',
+                description: 'Display current gold & silver price',
+                // features: [
+                //     'Multi-chain cryptocurrency support',
+                //     'Secure key management and storage',
+                //     'DeFi protocol integration',
+                //     'NFT collection and trading',
+                //     'Staking and yield farming',
+                //     'Transaction history and analytics',
+                //     'Hardware wallet integration',
+                //     'Cross-chain bridge functionality'
+                // ],
+                tags: ['HTML','CSS','JavaScript','API'],
+                liveDemo: '#',
+                sourceCode: '#'
+            },
+            data: {
+                // icon: '🌐',
+                title: 'All about data analytics',
+                description: 'Under construction',
+                // features: [
+                //     'Real-time messaging and video calls',
+                //     'Content sharing with rich media support',
+                //     'Community groups and forums',
+                //     'Advanced privacy and security settings',
+                //     'AI-powered content recommendations',
+                //     'Live streaming capabilities',
+                //     'Event planning and management',
+                //     'Mobile and desktop applications'
+                // ],
+                // tags: ['HTML','CSS'],
+                liveDemo: '#',
+                sourceCode: '#'
+            }
         };
 
         // Add project to class mapping
             const projectClassMap = {
             ytPlaylist: 'project-1',
             fcy: 'project-2',
-            iNi: 'project-3'
+            iNi: 'project-3',
+            update: 'project-4',
+            goldsilver: 'project-5',
+            data: 'project-6'
             };
 
         // Open modal when project card is clicked
@@ -312,4 +309,5 @@
             if (heroBackground) {
                 document.querySelector('.hero').style.transform = `translateY(${scrolled * 0.5}px)`;
             }
+
         });
