@@ -387,19 +387,19 @@ nav {
 }
 
 .project-image.project-2 {
-    background-image: url('../images/forex.png');
+    background-image: url('../images/forex.webp');
 }
 .project-image.project-3 {
-    background-image: url('../images/iNi.png');
+    background-image: url('../images/iNi.webp');
 }
 .project-image.project-4 {
-    background-image: url('../images/update.png');
+    background-image: url('../images/update.webp');
 }
 .project-image.project-5 {
-    background-image: url('../images/goldsilver.png');
+    background-image: url('../images/goldsilver.webp');
 }
 .project-image.project-6 {
-    background-image: url('../images/data.png');
+    background-image: url('../images/data.webp');
 }
 
 .project-content {
@@ -491,15 +491,15 @@ nav {
 }
 
 .modal-header.project-1 {
-    background-image: url('../images/youtube-playlist.png');
+    background-image: url('../images/youtube-playlist.webp');
 }
 
 .modal-header.project-2 {
-    background-image: url('../images/forex.png');
+    background-image: url('../images/forex.webp');
 }
 
 .modal-header.project-3 {
-    background-image: url('../images/iNi.png');
+    background-image: url('../images/iNi.webp');
 }
 
 .modal-close {
@@ -862,3 +862,4 @@ footer {
 
 
 }
+
