@@ -184,10 +184,10 @@
                  // icon: '🤖',
                 title: 'News update from various source',
                 description: 'News update, movies in cinema hall, Vegetable price, Petrol price',
-                // features: [
-                //     'Natural language understanding and processing',
-                //     'Context-aware conversations'
-                // ],
+                features: [
+                    'News update, movies in cinema hall',
+                    'Display Vegetable price and Petrol price'
+                ],
                 tags: ['HTML','CSS','JavaScript','Python'],
                 liveDemo: '#',
                 sourceCode: '#'
@@ -196,16 +196,10 @@
                  // icon: '⛓️',
                 title: 'Display current gold & silver price',
                 description: 'Display current gold & silver price',
-                // features: [
-                //     'Multi-chain cryptocurrency support',
-                //     'Secure key management and storage',
-                //     'DeFi protocol integration',
-                //     'NFT collection and trading',
-                //     'Staking and yield farming',
-                //     'Transaction history and analytics',
-                //     'Hardware wallet integration',
-                //     'Cross-chain bridge functionality'
-                // ],
+                features: [
+                    'Display gold and silver price',
+                    'Using Nepal rastra bank fcy API'
+                ],
                 tags: ['HTML','CSS','JavaScript','API'],
                 liveDemo: '#',
                 sourceCode: '#'
@@ -214,17 +208,11 @@
                 // icon: '🌐',
                 title: 'All about data analytics',
                 description: 'Under construction',
-                // features: [
-                //     'Real-time messaging and video calls',
-                //     'Content sharing with rich media support',
-                //     'Community groups and forums',
-                //     'Advanced privacy and security settings',
-                //     'AI-powered content recommendations',
-                //     'Live streaming capabilities',
-                //     'Event planning and management',
-                //     'Mobile and desktop applications'
-                // ],
-                // tags: ['HTML','CSS'],
+                features: [
+                    'Under construction 1',
+                    'Under construction 2'
+                ],
+                tags: ['HTML','CSS'],
                 liveDemo: '#',
                 sourceCode: '#'
             }
@@ -311,3 +299,4 @@
             }
 
         });
+
