@@ -184,37 +184,37 @@
                  // icon: '🤖',
                 title: 'News update from various source',
                 description: 'News update, movies in cinema hall, Vegetable price, Petrol price',
-                features: [
-                    'News update, movies in cinema hall',
-                    'Display Vegetable price and Petrol price'
-                ],
-                tags: ['HTML','CSS','JavaScript','Python'],
-                liveDemo: '#',
-                sourceCode: '#'
+                // features: [
+                //     'News update, movies in cinema hall',
+                //     'Display Vegetable price and Petrol price'
+                // ],
+                // tags: ['HTML','CSS','JavaScript','Python'],
+                // liveDemo: '#',
+                // sourceCode: '#'
             },
             goldsilver: {
                  // icon: '⛓️',
                 title: 'Display current gold & silver price',
                 description: 'Display current gold & silver price',
-                features: [
-                    'Display gold and silver price',
-                    'Using Nepal rastra bank fcy API'
-                ],
-                tags: ['HTML','CSS','JavaScript','API'],
-                liveDemo: '#',
-                sourceCode: '#'
+                // features: [
+                //     'Display gold and silver price',
+                //     'Using Nepal rastra bank fcy API'
+                // ],
+                // tags: ['HTML','CSS','JavaScript','API'],
+                // liveDemo: '#',
+                // sourceCode: '#'
             },
             data: {
                 // icon: '🌐',
                 title: 'All about data analytics',
                 description: 'Under construction',
-                features: [
-                    'Under construction 1',
-                    'Under construction 2'
-                ],
-                tags: ['HTML','CSS'],
-                liveDemo: '#',
-                sourceCode: '#'
+                // features: [
+                //     'Under construction 1',
+                //     'Under construction 2'
+                // ],
+                // tags: ['HTML','CSS'],
+                // liveDemo: '#',
+                // sourceCode: '#'
             }
         };
 
@@ -299,4 +299,5 @@
             }
 
         });
+
 
