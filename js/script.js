@@ -177,7 +177,7 @@
                     'Can view large poster and movie youtube trailer'
                 ],
                 tags: ['HTML','CSS','JavaScript','Python'],
-                liveDemo: 'https://djcoder-git.github.io/iniCinemas/',
+                liveDemo: '#',
                 sourceCode: '#'
             },
             update: {
