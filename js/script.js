@@ -170,8 +170,8 @@
             },
             iNi: {
                 // icon: '📱',
-                title: 'iNi Cinemas movie update',
-                description: 'Movie details from iNi cinemas',
+                title: 'Movie update',
+                description: 'Latest Movies in cinema hall',
                 features: [
                     'Can view movie list Now Showing, Coming Soon and Next Release',
                     'Can view large poster and movie youtube trailer'
